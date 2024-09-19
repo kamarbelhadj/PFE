@@ -1,0 +1,173 @@
+.questionnaire-form-container {
+    width: 60rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+  }
+  .questionnaire-preview {
+    margin-top: 20px;
+  }
+  
+  .questionnaire-preview table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .questionnaire-preview th,
+  .questionnaire-preview td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .questionnaire-preview th {
+    font-weight: bold;
+  }
+  
+  .questionnaire-preview button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .questionnaire-preview button:hover {
+    background-color: #92c1f3;
+  }
+  
+  .questionnaire-preview .edit-button {
+    background-color: #ff6b8b;
+  }
+  
+  .questionnaire-preview .delete-button {
+    background-color:#dc3545;
+  }
+  
+  
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s ease;
+  }
+  
+  select {
+    appearance: none;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #007bff, #007bff),
+      linear-gradient(135deg, #007bff, #007bff);
+    background-position: calc(100% - 18px) calc(1em + 2px),
+      calc(100% - 15px) 0.5em;
+    background-size: 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+    padding-right: 25px;
+    cursor: pointer;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  input[type="text"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  select option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  
+  .buttonQuestionaire {
+    padding: 10px 20px;
+    background-color: #4D4DAC;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .buttonQuestionaire [type="submit"] {
+    background-color: #9057D1;
+  }
+  
+  .buttonQuestionaire :hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a986d1;
+  }
+  
+  button:active {
+    background-color: #004fb3;
+  }
+  
+  button[type="submit"]:active {
+    background-color: #a986d1;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li strong {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 480px) {
+    .questionnaire-form-container {
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    input[type="text"],
+    select {
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }

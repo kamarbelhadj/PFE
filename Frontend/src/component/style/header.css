@@ -1,0 +1,70 @@
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-right: 5vw !important;
+}
+.custom-navbar-collapse {
+  justify-content: flex;
+}
+
+@media (min-width: 991.98px) {
+  .nav-center{
+    gap: 12rem !important;
+  }
+  .imageProfil{
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: cover !important;
+  }
+  .profile-User{
+    display: none;
+  }
+  .connect-button{
+    text-decoration: none !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 25px !important;
+    cursor: pointer !important;
+    box-shadow: #FF6456;
+    background: linear-gradient(90deg, #F4347B 0%, #FF6456 100%) !important;
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    margin-top: 0 !important;
+   
+  }
+  .imageProfil{
+    display: none;
+  }
+  .connect-button{
+      width: 100% !important;
+      background-color: white !important;
+      color:  #FF6456 !important;
+      border: none !important;
+  }
+  /* .connect-button:hover{
+    width: 100% !important;
+    background-color: white !important;
+   
+    border: none !important;
+    color: linear-gradient(90deg, #F4347B 0%, #FF6456 100%) !important;
+  } */
+
+}
+
+

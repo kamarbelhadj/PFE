@@ -1,0 +1,58 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+.profile-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #ffff;
+    margin:2rem;
+    padding:2rem;
+    border-radius: 20px;
+    background: #fefefe;
+    border: 1px solid #707070;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+    
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    
+    
+  }
+  
+  .sidebar li.active {
+    background-color: #e0e0e0;
+  }
+  
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* margin:2rem; */
+    margin-top: 2rem;
+    padding:2rem;
+    border-radius: 20px;
+    background-color: #f5f5fb;
+    height: max-content !important;
+  }
+  
+  .content > div {
+    margin-bottom: 20px;
+  }
+  
+  .content h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  

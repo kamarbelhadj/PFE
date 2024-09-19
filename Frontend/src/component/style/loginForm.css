@@ -1,0 +1,88 @@
+.login-form-container {
+  margin-top: 12rem !important;
+  margin-left : 55rem;
+  padding: 30px;
+  }
+  
+  .login-form-connect{
+    margin-left: 20px !important;
+  }
+  .form-control {
+    font-size: 1.1rem;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+  background-color: #f4f4f4;
+  color: #333;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-in-out;
+  width: 150%;
+  }
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #e6e6e6;
+  }
+  .form-control::placeholder {
+    color: #999;
+    font-size: 15px;
+  }
+  .Label {
+    margin-bottom: 1.5rem;
+    color: #444;
+    width: 100%;
+  }
+  .btn{
+    background-color: #0372BC;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius:15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 150%;
+  text-align: center;
+  font-size: 15px;
+}
+  .btn:hover {
+    background-color: #007bff;
+  }
+  /* .imageReg{
+    position: absolute;
+    margin-top: 12rem;
+    margin-left: 7rem;
+  
+  } */
+  .imageReg{
+
+    position: relative;
+  
+    margin: auto;
+    width: fit-content !important;
+    height: fit-content !important;
+    max-width: inherit;
+  }
+  .my-link{
+  
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    };
+    .my-link:hover {
+      text-decoration: underline;
+    }
+    .btn1 {
+      background-color: #0372BC !important;
+      color: #fff;
+      border-radius: 25px !important;
+      margin-right: 1rem !important;
+      border: none !important;
+      min-height: 2rem;
+      width: 100% !important;
+    
+    }
+    .btn1:hover:hover {
+      background-color: #f6bcc9 !important;
+    }

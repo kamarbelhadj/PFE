@@ -1,0 +1,101 @@
+.doctor-search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.recherche {
+  margin-left: 10px;
+  padding: 9px 30px;
+  background-color: #0372bc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.recherche:hover {
+  background-color: #0466a7;
+}
+
+.recherche:active {
+  background-color: #02476f;
+}
+
+.not-found {
+  font-size: 16px;
+  color: #ff4c4c;
+  margin-top: 1rem;
+}
+
+.doctor-details {
+  margin-top: 2rem;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  text-align: left;
+  width: 25rem;
+}
+
+.doctor-details h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.doctor-details p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+
+
+
+
+.follow-up-button {
+  background-color: #4d4dac;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.follow-up-button:hover {
+  background-color: #3c3c84;
+}
+
+.follow-up-button:active {
+  background-color: #2a2a5e;
+}
+
+.follow-up-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.follow-up-message {
+  background-color: #e6f7ff;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
